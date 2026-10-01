@@ -299,7 +299,7 @@ Evaluate → Analyze → Improve → Augment benchmark → Repeat
 
 **Điều gì trong kết quả benchmark trái với dự đoán ban đầu của bạn?**
 
-> *Câu trả lời:* Bất ngờ nhất là một số câu trả lời đúng vẫn bị điểm thấp, như H05 (0.387) và E01 (0.437). Điều này cho thấy metric hiện tại khá nhạy với wording, chứ không chỉ phản ánh câu trả lời có đúng hay không. Ngược lại, M01 kết luận sai mà vẫn được 0.564. Ngoài ra, ban đầu tôi đoán lỗi nằm ở retrieval, nhưng đọc trace mới thấy với các câu thường thì chunk đúng gần như luôn đứng hạng 1.
+> *Câu trả lời:* Bất ngờ là một số câu trả lời đúng vẫn bị điểm thấp, như H05 (0.387) và E01 (0.437). Điều này cho thấy metric hiện tại khá nhạy với wording, chứ không chỉ phản ánh câu trả lời có đúng hay không. Ngược lại, M01 kết luận sai mà vẫn được 0.564. Ngoài ra, ban đầu tôi đoán lỗi nằm ở retrieval, nhưng đọc trace mới thấy với các câu thường thì chunk đúng gần như luôn đứng hạng 1.
 
 **Word-overlap heuristics trong lab có giới hạn gì? Nếu đưa hệ thống vào
 production, bạn sẽ thay hoặc bổ sung metric nào?**
